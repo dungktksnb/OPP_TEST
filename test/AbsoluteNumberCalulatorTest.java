@@ -14,8 +14,8 @@ class AbsoluteNumberCalulatorTest {
 
     @Test
     void testHaiSoDoi() {
-        int number=0;
-        int expected=0;
+        int number=-1;
+        int expected=1;
         int result=AbsoluteNumberCalulator.findAbsolute(number);
         assertEquals(expected,result);
     }
